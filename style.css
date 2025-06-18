@@ -1,0 +1,34 @@
+body{
+    /* background-image: url("images/window.jpg");
+    background-repeat: no-repeat; */
+    background-color: #452127;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+
+button{    
+    display: inline-block;
+    width: fit-content;
+    background-color: #452127;
+    font-family: Arial, sans-serif;
+    border: none;
+}
+
+.item{
+    /* background-color: #452127; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item:hover{
+    /* transition: 0.1s; */
+    transform: scale(1.3) rotate(5deg);
+}
+
+#computer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
